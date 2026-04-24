@@ -1,0 +1,16 @@
+{
+  "project_name": "Truvera",
+  "model_type": "XGBRegressor",
+  "n_rows_export_source": 336818,
+  "n_features": 95,
+  "cat_cols": [
+    "manufacturer",
+    "model",
+    "condition",
+    "fuel",
+    "title_status",
+    "transmission",
+    "type"
+  ],
+  "tfidf_features": 80
+}
