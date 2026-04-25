@@ -1,8 +1,12 @@
-# Truvera
+﻿# Truvera
 
 Truvera is an AI-powered used car analysis platform built to help buyers make faster and smarter decisions. Instead of looking only at the seller's asking price, it combines market value estimation with listing-description trust signals to show whether a vehicle looks fairly priced, overpriced, or potentially worth a closer look.
 
 The project is presented through a premium Streamlit interface designed to feel like a polished product demo rather than a notebook output. A buyer can enter core vehicle details, paste a listing description, and get an instant interpretation of price, trust, and market fairness in one place.
+
+## Live Demo
+
+[Open the deployed app](https://truvera-ai-used-car-platform-gjttmfvk5p8ksiacwpeadd.streamlit.app/)
 
 ## What Truvera does
 
@@ -162,4 +166,5 @@ That turns a vague listing into a clearer buying signal.
 ## Author
 
 Built by Ezgi Orman as an applied AI project focused on used car pricing intelligence, trust analysis, and decision support.
+
 
