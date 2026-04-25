@@ -42,7 +42,7 @@ This screen gives the user a complete first-pass view: vehicle inputs, price pre
 
 This part highlights the market intelligence layer, fairness gauge, and the final verdict a buyer can act on.
 
-![Truvera analysis preview](docs/images/dashboard2.svg)
+![Truvera analysis preview](docs/images/dashboard2.png)
 
 ## Core inputs
 
