@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="780" viewBox="0 0 1400 780" fill="none">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1400" y2="780" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A0C10"/>
+      <stop offset="1" stop-color="#11151D"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#2C3038" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#1A1E25" stop-opacity="0.9"/>
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="780" rx="36" fill="url(#bg2)"/>
+  <rect x="34" y="28" width="278" height="724" rx="28" fill="#101217" stroke="#2D313A"/>
+  <rect x="352" y="56" width="220" height="140" rx="28" fill="url(#panel)" stroke="#3A3F4B"/>
+  <rect x="598" y="56" width="220" height="140" rx="28" fill="url(#panel)" stroke="#3A3F4B"/>
+  <rect x="844" y="56" width="220" height="140" rx="28" fill="url(#panel)" stroke="#3A3F4B"/>
+  <rect x="1090" y="56" width="220" height="140" rx="28" fill="url(#panel)" stroke="#3A3F4B"/>
+  <rect x="352" y="232" width="520" height="220" rx="30" fill="url(#panel)" stroke="#3A3F4B"/>
+  <rect x="932" y="232" width="378" height="400" rx="30" fill="url(#panel)" stroke="#3A3F4B"/>
+  <rect x="352" y="482" width="520" height="112" rx="24" fill="#23262D" stroke="#404550"/>
+  <rect x="352" y="620" width="958" height="86" rx="20" fill="#12161D" stroke="#3A3F4B"/>
+  <circle cx="1122" cy="432" r="132" fill="#22262D" stroke="#383D48"/>
+  <text x="1080" y="445" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="72" font-weight="800">70</text>
+  <text x="1066" y="505" fill="#B9BFCA" font-family="Segoe UI, Arial, sans-serif" font-size="24" letter-spacing="3">FAIRNESS</text>
+  <text x="392" y="324" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="52" font-weight="800">Market Intelligence</text>
+  <text x="392" y="390" fill="#D6DAE2" font-family="Segoe UI, Arial, sans-serif" font-size="28">Truvera compares asking price with fair value and blends it</text>
+  <text x="392" y="428" fill="#D6DAE2" font-family="Segoe UI, Arial, sans-serif" font-size="28">with trust signals from the listing description.</text>
+  <text x="392" y="545" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700">Overpriced: this listing appears above the estimated market value.</text>
+  <text x="392" y="587" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700">Negotiation may be needed.</text>
+  <text x="390" y="112" fill="#B8BEC8" font-family="Segoe UI, Arial, sans-serif" font-size="20">PREDICTED FAIR PRICE</text>
+  <text x="390" y="164" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="48" font-weight="800">$12,820</text>
+  <text x="636" y="112" fill="#B8BEC8" font-family="Segoe UI, Arial, sans-serif" font-size="20">LISTING PRICE</text>
+  <text x="636" y="164" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="48" font-weight="800">$15,900</text>
+  <text x="882" y="112" fill="#B8BEC8" font-family="Segoe UI, Arial, sans-serif" font-size="20">TRUST SCORE</text>
+  <text x="882" y="164" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="48" font-weight="800">78/100</text>
+  <text x="1128" y="112" fill="#B8BEC8" font-family="Segoe UI, Arial, sans-serif" font-size="20">FAIRNESS SCORE</text>
+  <text x="1128" y="164" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="48" font-weight="800">70/100</text>
+  <text x="1032" y="742" fill="#8E95A3" font-family="Segoe UI, Arial, sans-serif" font-size="24">README visual preview</text>
+</svg>

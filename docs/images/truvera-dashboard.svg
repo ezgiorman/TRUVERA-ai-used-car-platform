@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="780" viewBox="0 0 1400 780" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="780" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#050505"/>
+      <stop offset="1" stop-color="#15181F"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#2B2E35" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#1B1E24" stop-opacity="0.9"/>
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="780" rx="36" fill="url(#bg)"/>
+  <rect x="24" y="24" width="280" height="732" rx="28" fill="#101217" stroke="#2D313A"/>
+  <text x="52" y="82" fill="#F5F5F5" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="700">Vehicle Inputs</text>
+  <rect x="52" y="124" width="224" height="16" rx="8" fill="#FF5A5F"/>
+  <rect x="52" y="178" width="224" height="62" rx="18" fill="#23262D" stroke="#404550"/>
+  <rect x="52" y="270" width="224" height="62" rx="18" fill="#23262D" stroke="#404550"/>
+  <rect x="52" y="362" width="224" height="62" rx="18" fill="#23262D" stroke="#404550"/>
+  <rect x="52" y="454" width="224" height="62" rx="18" fill="#23262D" stroke="#404550"/>
+  <rect x="52" y="546" width="224" height="62" rx="18" fill="#23262D" stroke="#404550"/>
+  <rect x="52" y="638" width="224" height="62" rx="18" fill="#23262D" stroke="#404550"/>
+  <rect x="336" y="44" width="1020" height="322" rx="34" fill="#12161D" stroke="#303542"/>
+  <rect x="336" y="44" width="1020" height="322" rx="34" fill="url(#card)" opacity="0.48"/>
+  <text x="390" y="114" fill="#C8CDD6" font-family="Segoe UI, Arial, sans-serif" font-size="22" letter-spacing="3">TRUVERA AI · USED CAR INTELLIGENCE</text>
+  <text x="390" y="206" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="72" font-weight="800">Know the real value</text>
+  <text x="390" y="286" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="72" font-weight="800">before you buy.</text>
+  <text x="390" y="340" fill="#D8DCE3" font-family="Segoe UI, Arial, sans-serif" font-size="28">Fair price engine, trust signals, and market fairness in one dashboard.</text>
+  <rect x="336" y="404" width="228" height="154" rx="28" fill="url(#card)" stroke="#3A3F4B"/>
+  <rect x="590" y="404" width="228" height="154" rx="28" fill="url(#card)" stroke="#3A3F4B"/>
+  <rect x="844" y="404" width="228" height="154" rx="28" fill="url(#card)" stroke="#3A3F4B"/>
+  <rect x="1098" y="404" width="228" height="154" rx="28" fill="url(#card)" stroke="#3A3F4B"/>
+  <text x="370" y="460" fill="#B8BEC8" font-family="Segoe UI, Arial, sans-serif" font-size="20">PREDICTED FAIR PRICE</text>
+  <text x="370" y="520" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="52" font-weight="800">$12,820</text>
+  <text x="624" y="460" fill="#B8BEC8" font-family="Segoe UI, Arial, sans-serif" font-size="20">LISTING PRICE</text>
+  <text x="624" y="520" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="52" font-weight="800">$15,900</text>
+  <text x="878" y="460" fill="#B8BEC8" font-family="Segoe UI, Arial, sans-serif" font-size="20">TRUST SCORE</text>
+  <text x="878" y="520" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="52" font-weight="800">78/100</text>
+  <text x="1132" y="460" fill="#B8BEC8" font-family="Segoe UI, Arial, sans-serif" font-size="20">FAIRNESS SCORE</text>
+  <text x="1132" y="520" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="52" font-weight="800">70/100</text>
+  <text x="1040" y="715" fill="#8E95A3" font-family="Segoe UI, Arial, sans-serif" font-size="24">README visual preview</text>
+</svg>
