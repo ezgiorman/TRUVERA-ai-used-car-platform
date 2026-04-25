@@ -36,13 +36,13 @@ The interface is designed around a premium dark dashboard layout with a guided i
 
 This screen gives the user a complete first-pass view: vehicle inputs, price prediction, trust score, and fairness summary.
 
-![Truvera dashboard preview](docs/images/truvera-dashboard.svg)
+![Truvera dashboard preview](docs/images/dashboard1.png)
 
 ### Analysis and verdict panel
 
 This part highlights the market intelligence layer, fairness gauge, and the final verdict a buyer can act on.
 
-![Truvera analysis preview](docs/images/truvera-analysis.svg)
+![Truvera analysis preview](docs/images/dashboard2.svg)
 
 ## Core inputs
 
