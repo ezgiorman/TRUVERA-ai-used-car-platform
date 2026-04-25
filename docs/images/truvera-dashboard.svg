@@ -1,41 +1,123 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="780" viewBox="0 0 1400 780" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" width="1879" height="896" viewBox="0 0 1879 896" fill="none">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="780" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#050505"/>
-      <stop offset="1" stop-color="#15181F"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1879" y2="896" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A0B10"/>
+      <stop offset="1" stop-color="#11141B"/>
     </linearGradient>
-    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#2B2E35" stop-opacity="0.95"/>
-      <stop offset="1" stop-color="#1B1E24" stop-opacity="0.9"/>
+    <linearGradient id="heroShade" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#000000" stop-opacity="0.78"/>
+      <stop offset="0.45" stop-color="#000000" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.12"/>
     </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#2E3138" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#20242B" stop-opacity="0.94"/>
+    </linearGradient>
+    <radialGradient id="carGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1385 285) rotate(137.463) scale(588.813 382.965)">
+      <stop stop-color="#B0C645" stop-opacity="0.92"/>
+      <stop offset="0.58" stop-color="#7E6A13" stop-opacity="0.58"/>
+      <stop offset="1" stop-color="#171A20" stop-opacity="0"/>
+    </radialGradient>
   </defs>
-  <rect width="1400" height="780" rx="36" fill="url(#bg)"/>
-  <rect x="24" y="24" width="280" height="732" rx="28" fill="#101217" stroke="#2D313A"/>
-  <text x="52" y="82" fill="#F5F5F5" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="700">Vehicle Inputs</text>
-  <rect x="52" y="124" width="224" height="16" rx="8" fill="#FF5A5F"/>
-  <rect x="52" y="178" width="224" height="62" rx="18" fill="#23262D" stroke="#404550"/>
-  <rect x="52" y="270" width="224" height="62" rx="18" fill="#23262D" stroke="#404550"/>
-  <rect x="52" y="362" width="224" height="62" rx="18" fill="#23262D" stroke="#404550"/>
-  <rect x="52" y="454" width="224" height="62" rx="18" fill="#23262D" stroke="#404550"/>
-  <rect x="52" y="546" width="224" height="62" rx="18" fill="#23262D" stroke="#404550"/>
-  <rect x="52" y="638" width="224" height="62" rx="18" fill="#23262D" stroke="#404550"/>
-  <rect x="336" y="44" width="1020" height="322" rx="34" fill="#12161D" stroke="#303542"/>
-  <rect x="336" y="44" width="1020" height="322" rx="34" fill="url(#card)" opacity="0.48"/>
-  <text x="390" y="114" fill="#C8CDD6" font-family="Segoe UI, Arial, sans-serif" font-size="22" letter-spacing="3">TRUVERA AI · USED CAR INTELLIGENCE</text>
-  <text x="390" y="206" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="72" font-weight="800">Know the real value</text>
-  <text x="390" y="286" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="72" font-weight="800">before you buy.</text>
-  <text x="390" y="340" fill="#D8DCE3" font-family="Segoe UI, Arial, sans-serif" font-size="28">Fair price engine, trust signals, and market fairness in one dashboard.</text>
-  <rect x="336" y="404" width="228" height="154" rx="28" fill="url(#card)" stroke="#3A3F4B"/>
-  <rect x="590" y="404" width="228" height="154" rx="28" fill="url(#card)" stroke="#3A3F4B"/>
-  <rect x="844" y="404" width="228" height="154" rx="28" fill="url(#card)" stroke="#3A3F4B"/>
-  <rect x="1098" y="404" width="228" height="154" rx="28" fill="url(#card)" stroke="#3A3F4B"/>
-  <text x="370" y="460" fill="#B8BEC8" font-family="Segoe UI, Arial, sans-serif" font-size="20">PREDICTED FAIR PRICE</text>
-  <text x="370" y="520" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="52" font-weight="800">$12,820</text>
-  <text x="624" y="460" fill="#B8BEC8" font-family="Segoe UI, Arial, sans-serif" font-size="20">LISTING PRICE</text>
-  <text x="624" y="520" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="52" font-weight="800">$15,900</text>
-  <text x="878" y="460" fill="#B8BEC8" font-family="Segoe UI, Arial, sans-serif" font-size="20">TRUST SCORE</text>
-  <text x="878" y="520" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="52" font-weight="800">78/100</text>
-  <text x="1132" y="460" fill="#B8BEC8" font-family="Segoe UI, Arial, sans-serif" font-size="20">FAIRNESS SCORE</text>
-  <text x="1132" y="520" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="52" font-weight="800">70/100</text>
-  <text x="1040" y="715" fill="#8E95A3" font-family="Segoe UI, Arial, sans-serif" font-size="24">README visual preview</text>
+  <rect width="1879" height="896" fill="url(#bg)"/>
+
+  <rect x="0" y="0" width="405" height="896" fill="#0F1117"/>
+  <line x1="405.5" y1="0" x2="405.5" y2="896" stroke="#30343B"/>
+  <text x="19" y="67" fill="#F5F5F5" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">?? Vehicle Inputs</text>
+
+  <text x="19" y="111" fill="#E8E8E8" font-family="Segoe UI, Arial, sans-serif" font-size="17">Model Year</text>
+  <line x1="21" y1="151" x2="369" y2="151" stroke="#454951" stroke-width="4" stroke-linecap="round"/>
+  <line x1="21" y1="151" x2="275" y2="151" stroke="#FF5663" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="275" cy="151" r="9" fill="#FF5663"/>
+  <text x="254" y="136" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700">2016</text>
+  <text x="19" y="184" fill="#D9D9D9" font-family="Consolas, monospace" font-size="17" font-weight="700">2000</text>
+  <text x="327" y="184" fill="#D9D9D9" font-family="Consolas, monospace" font-size="17" font-weight="700">2022</text>
+
+  <text x="19" y="239" fill="#E8E8E8" font-family="Segoe UI, Arial, sans-serif" font-size="17">Manufacturer</text>
+  <rect x="19" y="248" width="352" height="50" rx="20" fill="#24272C" stroke="#545862"/>
+  <text x="31" y="281" fill="#F6F6F6" font-family="Segoe UI, Arial, sans-serif" font-size="18">toyota</text>
+  <path d="M338 269 L345 276 L352 269" stroke="#F2F2F2" stroke-width="3" stroke-linecap="round"/>
+
+  <text x="19" y="341" fill="#E8E8E8" font-family="Segoe UI, Arial, sans-serif" font-size="17">Model</text>
+  <rect x="19" y="354" width="352" height="50" rx="20" fill="#24272C" stroke="#545862"/>
+  <text x="31" y="387" fill="#F6F6F6" font-family="Segoe UI, Arial, sans-serif" font-size="18">camry</text>
+  <path d="M338 375 L345 382 L352 375" stroke="#F2F2F2" stroke-width="3" stroke-linecap="round"/>
+
+  <text x="19" y="439" fill="#E8E8E8" font-family="Segoe UI, Arial, sans-serif" font-size="17">Odometer / Mileage</text>
+  <rect x="19" y="460" width="272" height="48" rx="14" fill="#24272C" stroke="#414651"/>
+  <text x="30" y="491" fill="#F6F6F6" font-family="Segoe UI, Arial, sans-serif" font-size="18">85000</text>
+  <rect x="293" y="460" width="78" height="48" rx="14" fill="#12151B" stroke="#343945"/>
+  <text x="303" y="491" fill="#F6F6F6" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">-</text>
+  <text x="343" y="491" fill="#F6F6F6" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">+</text>
+
+  <text x="19" y="552" fill="#E8E8E8" font-family="Segoe UI, Arial, sans-serif" font-size="17">Listing Price</text>
+  <rect x="19" y="566" width="272" height="48" rx="14" fill="#24272C" stroke="#414651"/>
+  <text x="30" y="597" fill="#F6F6F6" font-family="Segoe UI, Arial, sans-serif" font-size="18">15900</text>
+  <rect x="293" y="566" width="78" height="48" rx="14" fill="#12151B" stroke="#343945"/>
+  <text x="303" y="597" fill="#F6F6F6" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">-</text>
+  <text x="343" y="597" fill="#F6F6F6" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">+</text>
+
+  <line x1="19" y1="666" x2="371" y2="666" stroke="#262A31"/>
+
+  <text x="19" y="717" fill="#E8E8E8" font-family="Segoe UI, Arial, sans-serif" font-size="17">Condition</text>
+  <rect x="19" y="728" width="352" height="50" rx="20" fill="#24272C" stroke="#545862"/>
+  <text x="31" y="761" fill="#F6F6F6" font-family="Segoe UI, Arial, sans-serif" font-size="18">good</text>
+  <path d="M338 749 L345 756 L352 749" stroke="#F2F2F2" stroke-width="3" stroke-linecap="round"/>
+
+  <text x="19" y="821" fill="#E8E8E8" font-family="Segoe UI, Arial, sans-serif" font-size="17">Fuel</text>
+  <rect x="19" y="840" width="352" height="50" rx="20" fill="#24272C" stroke="#545862"/>
+  <text x="31" y="873" fill="#F6F6F6" font-family="Segoe UI, Arial, sans-serif" font-size="18">gas</text>
+  <path d="M338 861 L345 868 L352 861" stroke="#F2F2F2" stroke-width="3" stroke-linecap="round"/>
+
+  <text x="1810" y="31" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">Deploy</text>
+
+  <rect x="509" y="64" width="1283" height="593" rx="40" fill="#161A20" stroke="#343944"/>
+  <rect x="509" y="64" width="1283" height="593" rx="40" fill="url(#carGlow)" opacity="0.9"/>
+  <rect x="509" y="64" width="1283" height="593" rx="40" fill="url(#heroShade)"/>
+
+  <ellipse cx="1295" cy="340" rx="355" ry="188" fill="#A18D1C" opacity="0.58"/>
+  <ellipse cx="1355" cy="338" rx="274" ry="145" fill="#D0BB31" opacity="0.78"/>
+  <ellipse cx="1425" cy="340" rx="160" ry="92" fill="#E0C63C" opacity="0.75"/>
+  <ellipse cx="1304" cy="433" rx="122" ry="30" fill="#121418" opacity="0.68"/>
+  <circle cx="1144" cy="450" r="48" fill="#0E1014"/>
+  <circle cx="1455" cy="448" r="48" fill="#0E1014"/>
+  <circle cx="1144" cy="450" r="24" fill="#2D3137"/>
+  <circle cx="1455" cy="448" r="24" fill="#2D3137"/>
+  <path d="M1060 390 C1140 292 1320 240 1540 268 C1618 278 1690 312 1745 350 L1710 388 C1658 380 1602 378 1520 382 C1364 390 1234 422 1092 474 L1040 468 C1038 438 1040 411 1060 390Z" fill="#D3BA29" opacity="0.92"/>
+  <path d="M1458 392 C1536 388 1604 395 1680 420 C1632 448 1570 466 1496 474 L1410 482 C1412 450 1426 414 1458 392Z" fill="#B99718" opacity="0.92"/>
+
+  <rect x="569" y="95" width="372" height="46" rx="23" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.18)"/>
+  <text x="592" y="124" fill="#D5D8DF" font-family="Segoe UI, Arial, sans-serif" font-size="16" letter-spacing="1.6">? TRUVERA AI · USED CAR INTELLIGENCE</text>
+  <text x="569" y="267" fill="#F5F5F5" font-family="Segoe UI, Arial, sans-serif" font-size="82" font-weight="800">Know the real value</text>
+  <text x="569" y="355" fill="#F5F5F5" font-family="Segoe UI, Arial, sans-serif" font-size="82" font-weight="800">before you buy.</text>
+  <text x="569" y="444" fill="#E7E7E7" font-family="Segoe UI, Arial, sans-serif" font-size="25">Estimate fair market price, evaluate listing trust, and reveal whether a used car</text>
+  <text x="569" y="485" fill="#E7E7E7" font-family="Segoe UI, Arial, sans-serif" font-size="25">listing is a smart deal or an overpriced risk.</text>
+
+  <rect x="569" y="538" width="185" height="62" rx="31" fill="#F2F2F2"/>
+  <text x="598" y="577" fill="#050505" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700">Fair Price Engine</text>
+  <rect x="773" y="538" width="180" height="62" rx="31" fill="rgba(255,255,255,0.07)" stroke="rgba(255,255,255,0.18)"/>
+  <text x="802" y="577" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700">Trust Score NLP</text>
+  <rect x="968" y="538" width="179" height="62" rx="31" fill="rgba(255,255,255,0.07)" stroke="rgba(255,255,255,0.18)"/>
+  <text x="996" y="577" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700">Market Fairness</text>
+
+  <rect x="509" y="698" width="307" height="197" rx="30" fill="url(#panel)" stroke="#3B404C"/>
+  <rect x="836" y="698" width="307" height="197" rx="30" fill="url(#panel)" stroke="#3B404C"/>
+  <rect x="1163" y="698" width="307" height="197" rx="30" fill="url(#panel)" stroke="#3B404C"/>
+  <rect x="1490" y="698" width="307" height="197" rx="30" fill="url(#panel)" stroke="#3B404C"/>
+
+  <text x="543" y="751" fill="#B8BEC8" font-family="Segoe UI, Arial, sans-serif" font-size="16" letter-spacing="2.2">PREDICTED FAIR PRICE</text>
+  <text x="543" y="825" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="58" font-weight="800">$12,820</text>
+  <text x="543" y="877" fill="#C2C7D0" font-family="Segoe UI, Arial, sans-serif" font-size="18">Demo estimator active</text>
+
+  <text x="870" y="751" fill="#B8BEC8" font-family="Segoe UI, Arial, sans-serif" font-size="16" letter-spacing="2.2">LISTING PRICE</text>
+  <text x="870" y="825" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="58" font-weight="800">$15,900</text>
+  <text x="870" y="877" fill="#C2C7D0" font-family="Segoe UI, Arial, sans-serif" font-size="18">Difference: $3,080 · +24.0%</text>
+
+  <text x="1197" y="751" fill="#B8BEC8" font-family="Segoe UI, Arial, sans-serif" font-size="16" letter-spacing="2.2">TRUST SCORE</text>
+  <text x="1197" y="825" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="58" font-weight="800">78/100</text>
+  <text x="1197" y="877" fill="#C2C7D0" font-family="Segoe UI, Arial, sans-serif" font-size="18">High Trust</text>
+
+  <text x="1524" y="751" fill="#B8BEC8" font-family="Segoe UI, Arial, sans-serif" font-size="16" letter-spacing="2.2">FAIRNESS SCORE</text>
+  <text x="1524" y="825" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="58" font-weight="800">70/100</text>
+  <text x="1524" y="877" fill="#C2C7D0" font-family="Segoe UI, Arial, sans-serif" font-size="18">Overpriced</text>
 </svg>
