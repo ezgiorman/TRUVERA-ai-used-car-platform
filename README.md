@@ -6,7 +6,7 @@ The project is presented through a premium Streamlit interface designed to feel 
 
 ## Live Demo
 
-[Open the deployed app](https://truvera-ai-used-car-platform-gjttmfvk5p8ksiacwpeadd.streamlit.app/)
+[Open the deployed app](https://truvera-ai-used-car-platform-ftely2dmjxuagu3v92u7ks.streamlit.app/)
 
 ## What Truvera does
 
@@ -166,5 +166,6 @@ That turns a vague listing into a clearer buying signal.
 ## Author
 
 Built by Ezgi Orman as an applied AI project focused on used car pricing intelligence, trust analysis, and decision support.
+
 
 
