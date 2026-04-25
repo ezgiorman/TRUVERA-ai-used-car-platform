@@ -1,4 +1,4 @@
-import os
+﻿import os
 import math
 import pickle
 from pathlib import Path
@@ -8,18 +8,18 @@ import pandas as pd
 import streamlit as st
 
 # ============================================================
-# TRUVERA — Tesla Style Streamlit App
+# TRUVERA - Tesla Style Streamlit App
 # ============================================================
 
 st.set_page_config(
     page_title="Truvera | AI Used Car Intelligence",
-    page_icon="🚘",
+    page_icon=":car:",
     layout="wide",
     initial_sidebar_state="expanded",
 )
 
 # ------------------------------------------------------------
-# CSS — Tesla inspired dark premium UI
+# CSS - Tesla inspired dark premium UI
 # ------------------------------------------------------------
 st.markdown(
     """
@@ -319,10 +319,12 @@ def load_artifacts():
         model_paths = [
             ARTIFACT_DIR / "model.pkl",
             ARTIFACT_DIR / "xgb_model.pkl",
+            ARTIFACT_DIR / "xgb_price_model.joblib",
             ARTIFACT_DIR / "price_model.pkl",
         ]
         feature_paths = [
             ARTIFACT_DIR / "feature_cols.pkl",
+            ARTIFACT_DIR / "feature_cols.joblib",
             ARTIFACT_DIR / "FEATURE_COLS.pkl",
             ARTIFACT_DIR / "features.pkl",
         ]
@@ -513,7 +515,7 @@ states = ["ca", "tx", "fl", "ny", "oh", "wa", "az", "co", "ga", "mi", "pa", "nc"
 # Sidebar inputs
 # ------------------------------------------------------------
 with st.sidebar:
-    st.markdown("### 🚘 Vehicle Inputs")
+    st.markdown("### Vehicle Inputs")
     year = st.slider("Model Year", 2000, 2022, 2016)
     manufacturer = st.selectbox("Manufacturer", manufacturers, index=0)
     model_options = BRAND_MODEL_MAP.get(manufacturer, ["other"])
@@ -543,7 +545,7 @@ with st.sidebar:
 st.markdown(
     """
     <div class="hero">
-        <div class="eyebrow">⚡ Truvera AI · Used Car Intelligence</div>
+        <div class="eyebrow">Truvera AI - Used Car Intelligence</div>
         <h1>Know the real value before you buy.</h1>
         <p>Estimate fair market price, evaluate listing trust, and reveal whether a used car listing is a smart deal or an overpriced risk.</p>
         <div class="hero-actions">
@@ -605,7 +607,7 @@ if run:
         <div class="metric-card">
             <div class="label">Listing Price</div>
             <div class="value">{money(listing_price)}</div>
-            <div class="sub">Difference: {money(delta)} · {delta_pct:+.1f}%</div>
+            <div class="sub">Difference: {money(delta)} - {delta_pct:+.1f}%</div>
         </div>
         """, unsafe_allow_html=True)
     with col3:
@@ -664,7 +666,7 @@ if run:
                     <div class="gauge-label">Fairness</div>
                 </div>
             </div>
-            <div class="verdict">{manufacturer.title()} {model_name.title()} · {year}</div>
+            <div class="verdict">{manufacturer.title()} {model_name.title()} - {year}</div>
         </div>
         """, unsafe_allow_html=True)
     
@@ -688,4 +690,7 @@ with st.expander("How Truvera thinks", expanded=False):
         """
     )
 
-st.markdown("<div class='footer'>Truvera · AI-powered used car fairness and trust scoring platform</div>", unsafe_allow_html=True)
+st.markdown("<div class='footer'>Truvera - AI-powered used car fairness and trust scoring platform</div>", unsafe_allow_html=True)
+
+
+
