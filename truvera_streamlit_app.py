@@ -24,7 +24,8 @@ def get_base64_image(img_path):
         return base64.b64encode(f.read()).decode()
 
 
-car_img = get_base64_image("assets\car.jpg")
+BASE_DIR = Path(__file__).resolve().parent
+car_img = get_base64_image(BASE_DIR / "assets" / "car.jpg")
 
 # ------------------------------------------------------------
 # CSS - Tesla inspired dark premium UI
