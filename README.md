@@ -6,7 +6,7 @@ The project is presented through a premium Streamlit interface designed to feel 
 
 ## Live Demo
 
-[Open the deployed app](https://truvera-ai-used-car-platform-ftely2dmjxuagu3v92u7ks.streamlit.app/)
+[Open the deployed app](https://truvera-ai-used-car-platform-iyc9hzvg92rcnrcgq7khyt.streamlit.app/)
 
 ## What Truvera does
 
