@@ -2,6 +2,7 @@
 import math
 import pickle
 from pathlib import Path
+import base64
 
 import numpy as np
 import pandas as pd
@@ -17,6 +18,13 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded",
 )
+
+def get_base64_image(img_path):
+    with open(img_path, "rb") as f:
+        return base64.b64encode(f.read()).decode()
+
+
+car_img = get_base64_image("assets\car.jpg")
 
 # ------------------------------------------------------------
 # CSS - Tesla inspired dark premium UI
@@ -57,19 +65,19 @@ st.markdown(
     }
 
     .hero {
-        position: relative;
-        overflow: hidden;
-        border-radius: 34px;
-        min-height: 420px;
-        padding: 48px;
-        background:
-            linear-gradient(90deg, rgba(0,0,0,0.92) 0%, rgba(0,0,0,0.70) 42%, rgba(0,0,0,0.12) 100%),
-            url('https://images.unsplash.com/photo-1511919884226-fd3cad34687c?q=80&w=2200&auto=format&fit=crop');
-        background-size: cover;
-        background-position: center;
-        border: 1px solid rgba(255,255,255,0.10);
-        box-shadow: 0 28px 80px rgba(0,0,0,0.55);
-    }
+    position: relative;
+    overflow: hidden;
+    border-radius: 34px;
+    min-height: 420px;
+    padding: 48px;
+    background:
+        linear-gradient(90deg, rgba(0,0,0,0.96) 0%, rgba(0,0,0,0.78) 45%, rgba(0,0,0,0.18) 100%),
+        url("data:image/jpg;base64,__CAR_IMAGE__");
+    background-size: cover;
+    background-position: center right;
+    border: 1px solid rgba(255,255,255,0.10);
+    box-shadow: 0 28px 80px rgba(0,0,0,0.55);
+}
 
     .eyebrow {
         display: inline-flex;
@@ -295,7 +303,7 @@ st.markdown(
         margin: 24px 0;
     }
     </style>
-    """,
+    """.replace("__CAR_IMAGE__", car_img),
     unsafe_allow_html=True,
 )
 
